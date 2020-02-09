@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1;
+    background-color: #F2F2F2;
+    color: #323232;
+}
+
+.container {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 960px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 70px;
+}
+
+section {
+    padding: 10px 0;
+}
+
+.section-title {
+    border-bottom: 4px solid lightgrey;
+    padding: 15px 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #323232;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+/* Personal Info */
+
+.my-info {
+    display: flex;
+    /* border: 1px black solid; */
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.my-name {
+    font-size: 48px;
+    line-height: 0.8;
+}
+
+.my-title {
+    font-size: 24px;
+}
+
+.address {
+    margin-left: auto;
+}
+
+/* Profile */
+
+/* Skills */
+
+.skills-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill {
+    display: inline-block;
+}
+
+/* Projects */
+
+.project-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-right: auto;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.project-header {
+    display: flex;
+}
+
+.project-title:hover {
+    transform: scale(1.1);
+}
+
+
+/* Education */
+
+.schools {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.school-header {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.school-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+.school-time {
+    margin-left: auto;
+    font-size: 0.8rem;
+    align-self: flex-end;
+}
