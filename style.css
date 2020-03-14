@@ -43,6 +43,20 @@ a:hover {
     color: #3b3b3b;
 }
 
+
+span {
+    cursor: pointer;
+}
+
+.arrow {
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.arrow-end {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 /* Personal Info */
 
 .my-info {
@@ -103,9 +117,8 @@ a:hover {
 }
 
 .projects div ul li {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
 }
-
 
 /* Education */
 
